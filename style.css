@@ -1,0 +1,279 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  background-color: rgb(9, 9, 72);
+}
+nav img{
+  height: 150px;
+  width: 150px;
+  margin-left: 40px;
+  margin-top: -5px;
+}
+.logo{
+  height: 100px;
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding-right: 50px;
+}
+nav a{
+  color: white;
+  text-decoration: none;
+}
+header{
+  background-image:url(./img/Triple+Plus+Gif.gif);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+height: 80vh;
+width: 100%
+}
+.link{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding-right: 100px;
+  padding-top: 25px;
+}
+main{
+height: 200vh;
+width: 100%; 
+}
+.selec{
+  text-align: center;
+  font-size: 30px;
+  color: rgb(158, 154, 154);
+  margin: 0 auto 0 auto;
+  background-color:#18184b;
+  height: 50px;
+  padding-bottom: 100px ;
+  margin-top: 10px;
+  
+}
+
+
+/* #myvideo{
+position: absolute;
+right: 0;
+bottom: 0;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+} */
+.items img{
+  width: 300px;
+}
+.items{
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  column-gap: 5px;
+  row-gap: 5px;
+  margin: 0px 150px 0px auto;
+  padding-top: 20px;
+  padding-left: 40px;
+  /* background-image: url(./img/backgrounglogo.jpg); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 900px;
+  color: rgb(40, 28, 115);
+  opacity: -200px;
+}
+
+.items{
+  transition: transform 0.5s ;
+  position: relative;
+}
+.items :hover{
+  transform: translate(3px, 3px);
+}
+
+/* .items h4, p  {
+  background-color: yellow;
+  color: rgb(236, 0, 0);
+} */
+.opacity{
+  height:80vh ;
+  width: 100%;
+  background-color:rgba(0, 0, 0, 0.3) ;
+}
+.text{
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-top: 100px;
+  height: 30vh;
+  width: 40%;
+  margin-left: 500px;
+  margin-bottom: 300px;
+  border-radius: 10px;
+  color: white;
+}
+.text > button{
+  color: #ffffff;
+  background-color: green;
+  height: 40px;
+  /* width: 50px; */
+  border-radius: 7px;
+  border-color: rgba(255, 255, 255, 0.2);
+}
+.drive{
+  display: grid;
+  grid-template-columns:repeat(2,auto);
+  column-gap:100px;
+  row-gap:30px;
+  margin-left:20px ;
+}
+
+.drive > input {
+  background-color: #ffffff;
+  color: rgb(30, 29, 29);
+  /* border-color: rgb(35, 35, 35); */
+  height: 40px;
+  border: #ffffff;
+  border-radius: solid 2px,rgb(56, 56, 56);
+} 
+/* .bt1{
+  margin-top: 20px;
+  padding-top: 30px;
+} */
+
+.location_description{
+  display: grid;
+  grid-template-rows: repeat(1);
+}
+
+.location_description > input, .location_description > button{
+  width: 160px;
+  padding-top: 10px;
+  margin-top: 10px;
+  
+}
+
+.location_description > button{
+  background-color: rgb(249, 113, 136);
+  border-radius: 15px;
+  border-color: rgba(249,  113, 136, 0.3); 
+  color: white; 
+}
+
+.location_description  hr{
+  margin-top: 10px;
+  /* border-color: solid blueviolet; */
+  /* color: darkred; */
+  border:none;
+  height: 2px;
+  flex: 1;
+  background-color: rgb(245, 116, 138);
+  width: 500px;
+}
+
+#location_input{
+  width: 200px;
+}
+
+.location_description h2{
+  background-color: rgb(2, 34, 51);
+  color: white;
+}
+
+.transite{
+  transition: transform(0.5s);
+  position: relative;
+}
+
+.transite :hover{
+  transform: translate(3px,3px);
+}
+
+footer{
+  width: 100%;
+  height: 30vh;
+  background-color: #18184b;
+  margin-top:-70px ;
+  
+}
+
+.foot{  
+  width: 100%; 
+  height: 30vh;
+ display: grid;
+ grid-template-columns: repeat(4, auto );
+ grid-column: 0px;
+ grid-row: 0px;
+ padding-top: 70px;
+ padding-right: 30px;
+ font-size: 15px;
+ justify-content: space-between;
+ color: white;
+}
+
+.foot > img ,.imgs  {
+ margin-top: -90px;
+ height: 140px;
+ width: 170px;
+ padding-left: 15px;
+}
+
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+.copy-write{
+  text-align: center;
+  color: rgb(202, 189, 189);
+  width: 1500px;
+  /* font-size: 20px; */
+  /* flex: 200px; */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  f
+}
+
+
+
+
+.flex{
+  justify-content: space-between;
+  margin-right: 700px;
+  display: flex;
+  gap: 50px;
+
+
+
+
+.hello{
+  background-color: #e70870;
+  border: none;
+  border-radius: 10px;
+  height: 30px;
+  width: 80px;
+  color: white;
+}
+
+
+
+
+
+
+.copy{
+  background-color: #18184b;
+  color: white;
+  text-align: center;
+  font-size: auto;
+  height: auto;
+}
